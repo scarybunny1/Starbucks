@@ -10,6 +10,7 @@ import UIKit
 class HomeViewController: UIViewController {
     
     var headerView = HomeHeaderView()
+    var spacerView = UIView()
     var headerViewTopContraint: NSLayoutConstraint!
     
     var scrollView = UIScrollView()
@@ -33,9 +34,13 @@ class HomeViewController: UIViewController {
 
 extension HomeViewController{
     func style(){
+        spacerView.backgroundColor = .white
+        
+        view.backgroundColor = .backgroundWhite
         setUpTabBarItem()
         setUpScrollView()
         
+        spacerView.translatesAutoresizingMaskIntoConstraints = false
         headerView.translatesAutoresizingMaskIntoConstraints = false
         scrollView.translatesAutoresizingMaskIntoConstraints = false
         stackView.translatesAutoresizingMaskIntoConstraints = false
@@ -45,6 +50,7 @@ extension HomeViewController{
     }
     
     func layout(){
+        view.addSubview(spacerView)
         view.addSubview(headerView)
         view.addSubview(scrollView)
         
@@ -59,6 +65,11 @@ extension HomeViewController{
         headerViewTopContraint =
         headerView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor)
         NSLayoutConstraint.activate([
+            spacerView.topAnchor.constraint(equalTo: view.topAnchor),
+            spacerView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            spacerView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            spacerView.heightAnchor.constraint(equalToConstant: 100),
+            
             headerViewTopContraint,
             headerView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             headerView.trailingAnchor.constraint(equalTo: view.trailingAnchor),

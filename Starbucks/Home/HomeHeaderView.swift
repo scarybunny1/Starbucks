@@ -30,6 +30,7 @@ class HomeHeaderView: UIView {
 
 extension HomeHeaderView{
     func style(){
+        backgroundColor = .white
         greetingsLabel.translatesAutoresizingMaskIntoConstraints = false
         greetingsLabel.font = UIFont.preferredFont(forTextStyle: .largeTitle)
         greetingsLabel.text = "Good afternoon, Ayush ☀️"

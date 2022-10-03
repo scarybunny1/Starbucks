@@ -11,7 +11,7 @@ class BalanceView: UIView {
     
     let pointsLabel = UILabel()
     let starBalanceLabel = UILabel()
-    let starImageView = makeSymbolImageView(systemName: "star.fill")
+    let starImageView = makeSymbolImageView(systemName: "star.fill", scale: .large)
 
     override init(frame: CGRect) {
         super.init(frame: .zero)

@@ -14,7 +14,7 @@ class RewardsGraphicView: UIView {
     let initialFrameWidth: CGFloat = 200
     var actualFrameWidth: CGFloat?
     
-    let height: CGFloat = 100
+    let height: CGFloat = 80
     
     override init(frame: CGRect) {
         super.init(frame: .zero)
@@ -103,7 +103,7 @@ class RewardsGraphicView: UIView {
             let pointsConsumedStart = firstShortSegmentBegin
             let pointsConsumedEnd = padding + shortSegmentLength / 2
             
-            ctx.cgContext.setStrokeColor(UIColor.startYellow.cgColor)
+            ctx.cgContext.setStrokeColor(UIColor.starYellow.cgColor)
             
             ctx.cgContext.move(to: CGPoint(x: pointsConsumedStart, y: yOffset))
             ctx.cgContext.addLine(to: CGPoint(x: pointsConsumedEnd, y: yOffset))

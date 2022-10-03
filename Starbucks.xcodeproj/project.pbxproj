@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		3A40F7D628EA9EE500AF09DC /* RewardsGraphicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A40F7D528EA9EE500AF09DC /* RewardsGraphicView.swift */; };
+		3A40F7D928EAD53D00AF09DC /* StarAndPointsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A40F7D828EAD53D00AF09DC /* StarAndPointsView.swift */; };
+		3A40F7DB28EADA0800AF09DC /* StarRewardsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A40F7DA28EADA0800AF09DC /* StarRewardsRow.swift */; };
+		3A40F7DD28EB24B600AF09DC /* StarRewardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A40F7DC28EB24B600AF09DC /* StarRewardsView.swift */; };
 		3A4E2BD328E981110084CED3 /* Factories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4E2BD228E981110084CED3 /* Factories.swift */; };
 		3A4E2BD628E9854B0084CED3 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4E2BD528E9854B0084CED3 /* HomeHeaderView.swift */; };
 		3A4E2BD828E9AF5A0084CED3 /* PlaceholderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4E2BD728E9AF5A0084CED3 /* PlaceholderViewController.swift */; };
@@ -24,6 +27,9 @@
 
 /* Begin PBXFileReference section */
 		3A40F7D528EA9EE500AF09DC /* RewardsGraphicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsGraphicView.swift; sourceTree = "<group>"; };
+		3A40F7D828EAD53D00AF09DC /* StarAndPointsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarAndPointsView.swift; sourceTree = "<group>"; };
+		3A40F7DA28EADA0800AF09DC /* StarRewardsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRewardsRow.swift; sourceTree = "<group>"; };
+		3A40F7DC28EB24B600AF09DC /* StarRewardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRewardsView.swift; sourceTree = "<group>"; };
 		3A4E2BD228E981110084CED3 /* Factories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factories.swift; sourceTree = "<group>"; };
 		3A4E2BD528E9854B0084CED3 /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
 		3A4E2BD728E9AF5A0084CED3 /* PlaceholderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +57,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A40F7D728EAD52C00AF09DC /* StarRewards */ = {
+			isa = PBXGroup;
+			children = (
+				3A40F7D828EAD53D00AF09DC /* StarAndPointsView.swift */,
+				3A40F7DA28EADA0800AF09DC /* StarRewardsRow.swift */,
+				3A40F7DC28EB24B600AF09DC /* StarRewardsView.swift */,
+			);
+			path = StarRewards;
+			sourceTree = "<group>";
+		};
 		3A4E2BD428E9852A0084CED3 /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +83,7 @@
 		3A4E2BDD28E9E0B00084CED3 /* Rewards */ = {
 			isa = PBXGroup;
 			children = (
+				3A40F7D728EAD52C00AF09DC /* StarRewards */,
 				3A4E2BDE28E9E0C20084CED3 /* RewardView.swift */,
 				3A4E2BE028E9E0DB0084CED3 /* RewardViewController.swift */,
 				3ABCC0C828E9FE9C00F4559C /* BalanceView.swift */,
@@ -185,12 +202,15 @@
 				3A4E2BE128E9E0DB0084CED3 /* RewardViewController.swift in Sources */,
 				3ABCC0C928E9FE9C00F4559C /* BalanceView.swift in Sources */,
 				3A4E2BD628E9854B0084CED3 /* HomeHeaderView.swift in Sources */,
+				3A40F7D928EAD53D00AF09DC /* StarAndPointsView.swift in Sources */,
 				3A4E2BDC28E9C7B10084CED3 /* TileView.swift in Sources */,
 				3A4E2BD328E981110084CED3 /* Factories.swift in Sources */,
 				3A4E2BDA28E9C7A10084CED3 /* TileViewController.swift in Sources */,
+				3A40F7DB28EADA0800AF09DC /* StarRewardsRow.swift in Sources */,
 				3A40F7D628EA9EE500AF09DC /* RewardsGraphicView.swift in Sources */,
 				3A8D0EA328E8554400914EF9 /* HomeViewController.swift in Sources */,
 				3A8D0E9F28E8554400914EF9 /* AppDelegate.swift in Sources */,
+				3A40F7DD28EB24B600AF09DC /* StarRewardsView.swift in Sources */,
 				3A4E2BD828E9AF5A0084CED3 /* PlaceholderViewController.swift in Sources */,
 				3A4E2BDF28E9E0C20084CED3 /* RewardView.swift in Sources */,
 			);
