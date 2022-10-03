@@ -7,29 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A40F7D628EA9EE500AF09DC /* RewardsGraphicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A40F7D528EA9EE500AF09DC /* RewardsGraphicView.swift */; };
 		3A4E2BD328E981110084CED3 /* Factories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4E2BD228E981110084CED3 /* Factories.swift */; };
 		3A4E2BD628E9854B0084CED3 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4E2BD528E9854B0084CED3 /* HomeHeaderView.swift */; };
 		3A4E2BD828E9AF5A0084CED3 /* PlaceholderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4E2BD728E9AF5A0084CED3 /* PlaceholderViewController.swift */; };
 		3A4E2BDA28E9C7A10084CED3 /* TileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4E2BD928E9C7A10084CED3 /* TileViewController.swift */; };
 		3A4E2BDC28E9C7B10084CED3 /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4E2BDB28E9C7B10084CED3 /* TileView.swift */; };
+		3A4E2BDF28E9E0C20084CED3 /* RewardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4E2BDE28E9E0C20084CED3 /* RewardView.swift */; };
+		3A4E2BE128E9E0DB0084CED3 /* RewardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4E2BE028E9E0DB0084CED3 /* RewardViewController.swift */; };
 		3A8D0E9F28E8554400914EF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D0E9E28E8554400914EF9 /* AppDelegate.swift */; };
 		3A8D0EA328E8554400914EF9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D0EA228E8554400914EF9 /* HomeViewController.swift */; };
 		3A8D0EA828E8554500914EF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A8D0EA728E8554500914EF9 /* Assets.xcassets */; };
 		3A8D0EAB28E8554500914EF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A8D0EA928E8554500914EF9 /* LaunchScreen.storyboard */; };
+		3ABCC0C928E9FE9C00F4559C /* BalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABCC0C828E9FE9C00F4559C /* BalanceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A40F7D528EA9EE500AF09DC /* RewardsGraphicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsGraphicView.swift; sourceTree = "<group>"; };
 		3A4E2BD228E981110084CED3 /* Factories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factories.swift; sourceTree = "<group>"; };
 		3A4E2BD528E9854B0084CED3 /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
 		3A4E2BD728E9AF5A0084CED3 /* PlaceholderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderViewController.swift; sourceTree = "<group>"; };
 		3A4E2BD928E9C7A10084CED3 /* TileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileViewController.swift; sourceTree = "<group>"; };
 		3A4E2BDB28E9C7B10084CED3 /* TileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
+		3A4E2BDE28E9E0C20084CED3 /* RewardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardView.swift; sourceTree = "<group>"; };
+		3A4E2BE028E9E0DB0084CED3 /* RewardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardViewController.swift; sourceTree = "<group>"; };
 		3A8D0E9B28E8554400914EF9 /* Starbucks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Starbucks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A8D0E9E28E8554400914EF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A8D0EA228E8554400914EF9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		3A8D0EA728E8554500914EF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A8D0EAA28E8554500914EF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A8D0EAC28E8554500914EF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ABCC0C828E9FE9C00F4559C /* BalanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +54,7 @@
 		3A4E2BD428E9852A0084CED3 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				3A4E2BDD28E9E0B00084CED3 /* Rewards */,
 				3A8D0EA228E8554400914EF9 /* HomeViewController.swift */,
 				3A4E2BD528E9854B0084CED3 /* HomeHeaderView.swift */,
 				3A4E2BD728E9AF5A0084CED3 /* PlaceholderViewController.swift */,
@@ -53,6 +62,17 @@
 				3A4E2BDB28E9C7B10084CED3 /* TileView.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		3A4E2BDD28E9E0B00084CED3 /* Rewards */ = {
+			isa = PBXGroup;
+			children = (
+				3A4E2BDE28E9E0C20084CED3 /* RewardView.swift */,
+				3A4E2BE028E9E0DB0084CED3 /* RewardViewController.swift */,
+				3ABCC0C828E9FE9C00F4559C /* BalanceView.swift */,
+				3A40F7D528EA9EE500AF09DC /* RewardsGraphicView.swift */,
+			);
+			path = Rewards;
 			sourceTree = "<group>";
 		};
 		3A8D0E9228E8554400914EF9 = {
@@ -162,13 +182,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A4E2BE128E9E0DB0084CED3 /* RewardViewController.swift in Sources */,
+				3ABCC0C928E9FE9C00F4559C /* BalanceView.swift in Sources */,
 				3A4E2BD628E9854B0084CED3 /* HomeHeaderView.swift in Sources */,
 				3A4E2BDC28E9C7B10084CED3 /* TileView.swift in Sources */,
 				3A4E2BD328E981110084CED3 /* Factories.swift in Sources */,
 				3A4E2BDA28E9C7A10084CED3 /* TileViewController.swift in Sources */,
+				3A40F7D628EA9EE500AF09DC /* RewardsGraphicView.swift in Sources */,
 				3A8D0EA328E8554400914EF9 /* HomeViewController.swift in Sources */,
 				3A8D0E9F28E8554400914EF9 /* AppDelegate.swift in Sources */,
 				3A4E2BD828E9AF5A0084CED3 /* PlaceholderViewController.swift in Sources */,
+				3A4E2BDF28E9E0C20084CED3 /* RewardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

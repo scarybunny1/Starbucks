@@ -37,3 +37,26 @@ func makeGreenButton(with title: String) -> UIButton{
     
     return button
 }
+
+func makeSymbolImageView(systemName: String) -> UIImageView{
+    let configuration = UIImage.SymbolConfiguration(scale: .large)
+    let image = UIImage(systemName: systemName, withConfiguration: configuration)
+    
+    return UIImageView(image: image)
+}
+
+func makeClearButton(with text: String) -> UIButton{
+    let b = UIButton()
+    b.translatesAutoresizingMaskIntoConstraints = false
+    b.setTitle(text, for: .normal)
+    b.titleLabel?.adjustsFontSizeToFitWidth = true
+    b.contentEdgeInsets = UIEdgeInsets(top: 8, left: 16, bottom: 8, right: 16)
+    b.layer.cornerRadius = 40/2
+    b.layer.borderWidth = 0.5
+    
+    b.setTitleColor(.label, for: .normal)
+    b.layer.borderColor = UIColor.label.cgColor
+    b.backgroundColor = .systemBackground
+    
+    return b
+}

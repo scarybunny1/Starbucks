@@ -15,7 +15,8 @@ class HomeViewController: UIViewController {
     var scrollView = UIScrollView()
     var stackView = UIStackView()
     
-    var tiles = [TileViewController(title: "Breakfast made meatless", body: "Try the Beyond Meat, Cheddar & Egg Breakfast Sandwich. Vegatarian and protein packed.", imagename: "meatless"),
+    var tiles = [RewardViewController(),
+                 TileViewController(title: "Breakfast made meatless", body: "Try the Beyond Meat, Cheddar & Egg Breakfast Sandwich. Vegatarian and protein packed.", imagename: "meatless"),
                  TileViewController(title: "Uplifting our communities", body: "Thanks to our partners' nominations, the Starbucks Foundation is donating $145K to more than 50 local charities.", imagename: "communities"),
                  TileViewController(title: "Spend atleast $15 for 50 Bonus stars", body: "Collect 50 bonus stars when you spend atleast $15 pre-tax.", imagename: "bonus")
                 ]
